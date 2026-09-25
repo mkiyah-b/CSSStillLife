@@ -1,0 +1,108 @@
+body, html {
+    position: absolute;
+    background-color: antiquewhite;
+    top: 20px;
+    left: 20px;
+}
+
+#leaf {
+    position: absolute;
+    height: 55px;
+    width: 50px;
+    background-color: green;
+    border-radius: 0 50px;
+}
+
+#vine {
+    position: absolute;
+    height: 500px;
+    width: 5px;
+    background-color: darkgreen;
+}
+
+#panel {
+    position: absolute;
+}
+#panel i:nth-child(1) {
+    position: absolute;
+    height: 180px;
+    width: 70px;
+    background-color: aliceblue;
+}
+#panel i:nth-child(2) {
+    position: absolute;
+    top: -30px;
+    height: 200px;
+    width: 70px;
+    background-color: aliceblue;
+    border-radius: 30px 30px 0 0;
+}
+
+#pencilLamp {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#bottom {
+    position: absolute;
+    width: 75px;
+    height: 45px;
+    background-color: white;
+    left: -2.5px;
+    top: 135px;
+}
+
+#top {
+    position: absolute;
+}
+
+#window {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    background-color: black;
+}
+#ledge {
+    position: absolute;
+    width: 600px;
+    height: 30px;
+    top: 550px;
+    left: -15px;
+    background-color: wheat;
+    clip-path: polygon(15px 0, 565px 0, 580px 30px, 0px 30px);
+}
+
+#curtainL {
+    position: absolute;
+}
+
+#curtainL i:nth-child(1) {
+    position: absolute;
+    width: 120px;
+    height: 550px;
+    background-color: rgb(163, 184, 119);
+}
+#curtainL i:nth-child(2) {
+    position: absolute;
+    left: 120px;
+    width: 40px;
+    height: 550px;
+    background-color: rgb(179, 197, 145);
+    /* clip-path: polygon(0% 0%, 100% 0%, 0% 180%, 0% 0%); */
+}
+#curtainL i:nth-child(3) {
+    position: absolute;
+    left: 160px;
+    width: 50px;
+    height: 550px;
+    background-color: rgb(163, 184, 119);
+}
+#curtainL i:nth-child(4) {
+    position: absolute;
+    left: 210px;
+    width: 65px;
+    height: 550px;
+    background-color: rgb(179, 197, 145);
+    clip-path: polygon();
+}

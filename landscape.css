@@ -35,7 +35,7 @@ html{
 #circle {
     position: absolute;
     left: 180px;
-    width: 400px;
+    width: 300px;
     height: 40px;
     background-color: rgb(145, 139, 131);
     border-radius: 0% 10% 150% 200%;

@@ -6,7 +6,7 @@ html{
     position: absolute;
     width: 530px;
     height: 650px;
-    background: -webkit-linear-gradient(top, rgb(123, 186, 234),rgb(215, 237, 255));
+    background: -webkit-linear-gradient(top, rgb(47, 153, 234),rgb(215, 237, 255));
 }
 /* 
 #horizon {
@@ -107,6 +107,52 @@ html{
     width: 130px;
     background-color: rgb(209, 122, 82);
     clip-path: polygon(80px 5px, 80px 18px, 110px 20px, 115px 40px, 115px 80px, 130px 80px, 120px 350px, 0 350px, 0 0)
+}
+#building3 i:nth-child(1) {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(121, 149, 149);
+}
+#building3 i:nth-child(2) {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 30px;
+    height: 260px;
+    background-color: rgb(132, 168, 168);
+}
+#building3 i:nth-child(3) {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    width: 20px;
+    height: 260px;
+    background-color: rgb(216, 175, 134);
+}
+#building3 i:nth-child(4) {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    width: 10px;
+    height: 260px;
+    background-color: rgb(216, 175, 134);
+}
+#building3 i:nth-child(5) {
+    position: absolute;
+    top: 80px;
+    left: 65px;
+    width: 10px;
+    height: 260px;
+    background-color: rgb(216, 175, 134);
+}
+#building3 i:nth-child(6) {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    width: 10px;
+    height: 260px;
+    background-color: rgb(216, 175, 134);
 }
 
 #farBench {
@@ -223,6 +269,14 @@ html{
     width: 180px;
     background-color: rgb(189, 151, 113);
     clip-path: polygon(180px 0, 180px 400px, 60px 320px, 60px 100px, 110px 0);
+}
+#building7 i {
+    position: absolute;
+    top: 280px;
+    left: 75px;
+    height: 60px;
+    width: 50px;
+    background-color: rgb(120, 89, 58);
 }
 #building6 {
     position: absolute;
@@ -485,6 +539,24 @@ html{
     background-color: rgb(197, 186, 171);
     clip-path: polygon(0 0, 150px 50px, 150px 100px, 0 150px);
 }
+#building1 i:nth-child(4) {
+    position: absolute;
+    top: 260px;
+    left: 40px;
+    width: 25px;
+    height: 70px;
+    background-color: rgb(123, 165, 168);
+    clip-path: polygon(0 0, 50px 20px, 50px 70px, 0 70px);
+}
+#building1 i:nth-child(5) {
+    position: absolute;
+    top: 275px;
+    left: 85px;
+    width: 20px;
+    height: 70px;
+    background-color: rgb(123, 165, 168);
+    clip-path: polygon(0 0, 50px 20px, 50px 70px, 0 70px);
+}
 
 #tree i:nth-child(2){
     position: absolute;
@@ -572,6 +644,56 @@ html{
     border-radius: 50px;
     rotate: 10deg;
 }
+#treeLeaves i:nth-child(6) {
+    position: absolute;
+    top: 310px;
+    left: 300px;
+    width: 20px;
+    height: 15px;
+    background-color: rgb(38, 57, 38);
+    border-radius: 50px 10px;
+    rotate: -30deg;
+}
+#treeLeaves i:nth-child(7) {
+    position: absolute;
+    top: 210px;
+    left: 250px;
+    width: 20px;
+    height: 15px;
+    background-color: rgb(38, 57, 38);
+    border-radius: 50px 10px;
+    rotate: -90deg;
+}
+#treeLeaves i:nth-child(8) {
+    position: absolute;
+    top: 200px;
+    left: 270px;
+    width: 10px;
+    height: 15px;
+    background-color: rgb(38, 57, 38);
+    border-radius: 50px 10px;
+    rotate: -90deg;
+}
+#treeLeaves i:nth-child(9) {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(38, 57, 38);
+    border-radius: 50px 50px;
+}
+#treeLeaves i:nth-child(10) {
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    width: 10px;
+    height: 15px;
+    background-color: rgb(38, 57, 38);
+    border-radius: 50px 10px;
+    rotate: 40deg;
+}
+
 
 #tree1 {
     position: absolute;
@@ -689,4 +811,55 @@ html{
     background-color: rgb(116, 152, 58);
     border-radius: 200% 100% 150% 80%;
     rotate: 70deg;
+}
+#lightPost1 {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    width: 10px;
+    height: 140px;
+    background-color: #1f1b1a;
+}
+#lightPost1 i:nth-child(1) {
+    position: absolute;
+    top: -8px;
+    left: 1.15px;
+    width: 8px;
+    height: 8px;
+    background-color: #1f1b1a;
+    border-radius: 100%;;
+}
+#lightPost1 i:nth-child(2) {
+    position: absolute;
+    top: 10px;
+    left: -1px;
+    width: 12px;
+    height: 20px;
+    background: -webkit-linear-gradient(left, whitesmoke, gray);
+}
+
+#lightPost2 {
+    position: absolute;
+    top: 350px;
+    left: 315px;
+    width: 5px;
+    height: 70px;
+    background-color: #1f1b1a;
+}
+#lightPost2 i:nth-child(1) {
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 5px;
+    height: 5px;
+    background-color: #1f1b1a;
+    border-radius: 100%;;
+}
+#lightPost2 i:nth-child(2) {
+    position: absolute;
+    top: 5px;
+    left: -1px;
+    width: 7px;
+    height: 10px;
+    background: -webkit-linear-gradient(left, whitesmoke, gray);
 }
